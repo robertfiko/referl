@@ -1,4 +1,5 @@
 #include <iostream>
+#define VERSION "undef"
 
 int main(int argc, char *argv[])
 {
@@ -14,6 +15,11 @@ int main(int argc, char *argv[])
             {
                   std::cout << "Compiled on: " << __DATE__ << std::endl;
                   std::cout << "Compiled at: " << __TIME__ << std::endl;
+            }
+
+            if (argv[0] == "--version")
+            {
+                  std::cout << VERSION << std::endl;
             }
       }
 }
