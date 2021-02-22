@@ -1,2 +1,2 @@
 # referl
-Homebrew based installer for RefactorErl
+Test source code for RefactorErl, or kinda
